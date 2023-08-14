@@ -6,7 +6,7 @@ sudo apt install -y git xclip build-essential openjdk-17-jdk maven python3 curl 
 
 #copy files needed
 mkdir ~/.config/nvim
-cd ~/
+cd ~/neovim-config/
 cp -f init.lua ~/.config/nvim
 cp -f packer.lua ~/.config/nvim/
 
