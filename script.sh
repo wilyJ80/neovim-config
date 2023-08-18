@@ -2,7 +2,7 @@
 
 # install my software
 sudo apt update
-sudo apt install -y git xclip build-essential openjdk-17-jdk maven python3 curl wget unzip tar gzip
+sudo apt install -y git xclip build-essential openjdk-17-jdk maven python3 curl wget unzip tar gzip npm
 
 # install neovim (appimage)
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
