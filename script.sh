@@ -27,3 +27,11 @@ git clone https://github.com/wilyJ80/kickstart.nvim ~/.config/nvim
 # lets configure
 cd ~/.config/nvim
 nvim
+
+# Plugins/LSP
+# C: Clangd LSP, CodeLLDB Debugger (needs to compile with debug flags)
+# Java: JDTLS LSP, java-debug-adapter debugger
+# HTML/CSS: html-lsp, css-lsp, prettier, emmet
+# JavaScript: typescript-language-server, biome, standardjs, use browser for debugging
+# Markdown: marksman
+# Dot: dot-language-server
