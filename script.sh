@@ -30,8 +30,8 @@ nvim
 
 # Plugins/LSP
 # C: Clangd LSP, CodeLLDB Debugger (needs to compile with debug flags)
-# Java: JDTLS LSP, java-debug-adapter debugger
+# Java: JDTLS LSP, java-debug-adapter debugger, needs Maven project to debug
 # HTML/CSS: html-lsp, css-lsp, prettier, emmet
-# JavaScript: typescript-language-server, biome, standardjs, use browser for debugging
+# JavaScript: typescript-language-server, quicklint, standardjs, node-debug2 debugger, also use browser for debugging
 # Markdown: marksman
 # Dot: dot-language-server
