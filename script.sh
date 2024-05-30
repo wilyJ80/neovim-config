@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y git xclip \
 openjdk-17-jdk maven \
 python3 \
-build-essential npm \
+build-essential \
 curl wget unzip tar gzip \
 ripgrep fd-find
 
