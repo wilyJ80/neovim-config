@@ -3,7 +3,6 @@
 # install my software
 sudo apt update
 sudo apt install -y git xclip \
-openjdk-17-jdk maven \
 python3 \
 build-essential \
 curl wget unzip tar gzip \
