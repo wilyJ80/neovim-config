@@ -9,15 +9,13 @@ curl wget unzip tar gzip \
 ripgrep fd-find
 
 # install neovim (appimage)
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x nvim.appimage
-#./nvim.appimage
-./nvim.appimage --appimage-extract
+curl -LO https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
+chmod u+x ./nvim-linux-x86_64.appimage
+./nvim-linux-x86_64.appimage --appimage-extract
 ./squashfs-root/AppRun --version
 # Optional: exposing nvim globally.
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
-#nvim
 
 # Add my config based on Kickstart.nvim
 mkdir ~/.config/nvim
