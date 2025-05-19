@@ -9,7 +9,7 @@ curl wget unzip tar gzip \
 ripgrep fd-find
 
 # install neovim (appimage)
-curl -LO https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
+curl -LO https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.appimage
 chmod u+x ./nvim-linux-x86_64.appimage
 ./nvim-linux-x86_64.appimage --appimage-extract
 ./squashfs-root/AppRun --version
